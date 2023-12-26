@@ -1,6 +1,6 @@
 
 
-# The cute project <a href="https://r-datatable.com"><img src="https://raw.githubusercontent.com/Rdatatable/data.table/master/.graphics/logo.png" align="right" height="140" /></a>
+# The cute project <a href=""><img src=".images/logo.png" align="right" height="140" /></a>
 
 ## Why the cute project?
 <br />
