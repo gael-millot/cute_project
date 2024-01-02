@@ -17,7 +17,8 @@ The cute project gathers R functions with a similar encoding that better control
 Functions from the cute project present the same encoding structure before the 'main' code section, including:
 - Explicit error messages, including the name of the function and corresponding package returning the error.
 - Presence in local R library folders of all the functions and corresponding packages used in the code.
-- Package systematically indicated for any used function (R Scope seeking non authorized)
+- Classical R operators (`<-`, `(`, etc.) checked for any overwritting in the R scope.
+- Package systematically indicated for any used function (R Scope seeking non authorized). Example base::paste() instead of paste().
 - Argument checking: 
     - Values for arguments with no default values.
     - Expected class, type, mode, length, restricted values panel, kind of numeric values in addition to the distinction between 'integer' and 'double' (proportion only? Inf values authorized? negative values authorized?).
